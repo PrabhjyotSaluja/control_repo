@@ -4,4 +4,6 @@ node default {
   content => 'Hello, I hope this works',
   owner   => 'root',
   }
+  file {'/root/README':
+  ensure  => file,
 }
