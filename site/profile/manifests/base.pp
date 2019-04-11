@@ -6,7 +6,7 @@ class profile::base {
     ensure => present,
     home   => '/opt/ldm',
     shell  => '/bin/bash',
-    uid    => '1002'
+    uid    => '1002',
     }
     include profile::ssh_server
    }
